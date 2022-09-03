@@ -1,4 +1,4 @@
-//collaborating array component
+//collaborating array component.
 export const BaseColaboradores = [
   {
     id: "1",
