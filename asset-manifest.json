@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/list_bd_react_js/static/css/main.52d4b5f2.css",
+    "main.js": "/list_bd_react_js/static/js/main.e0d9f908.js",
+    "index.html": "/list_bd_react_js/index.html",
+    "main.52d4b5f2.css.map": "/list_bd_react_js/static/css/main.52d4b5f2.css.map",
+    "main.e0d9f908.js.map": "/list_bd_react_js/static/js/main.e0d9f908.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52d4b5f2.css",
+    "static/js/main.e0d9f908.js"
+  ]
+}
