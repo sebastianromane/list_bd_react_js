@@ -1,0 +1,152 @@
+/* inserto style sheet */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  display: flex;
+  background-image: url(https://w0.peakpx.com/wallpaper/932/499/HD-wallpaper-chile-football-chile-emblem-football-logo-national-soccer-team.jpg);
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.listli{
+  display: flex;
+  gap: 95px;
+  border-style: double;
+  border-color: rgba(0, 255, 166, 0.55);
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  color: aliceblue;
+  width: 100%;
+}
+
+.listul{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+}
+
+.separator{
+  width: 18%;
+}
+
+.listColab{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cuadroColab{
+  width: 95%;
+  height: 95%;
+  }
+
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 3%;
+  margin: 2%;
+  background-color: rgba(13, 29, 206, 0.935);
+
+  padding: 1em 2em;
+  color: white;
+  border-radius: 2em;
+  border:none;
+  height: 25%;
+  width: 90%;
+  outline: 2px solid rgba(14, 86, 209, 0.474);
+  outline-offset: 3px;
+  font-size: 60%;
+}
+
+div.btnAdd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+
+.tittle{
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+
+h4.emailPlayer{
+  display: flex;
+  padding-left: 3%;
+}
+
+h4.reservPlayer{
+  display: flex;
+  padding-left: 3%;
+}
+
+h4.namePlayer{
+  display: flex;
+  padding-left: 5%;
+}
+
+h4.deletePlayer{
+  display: flex;
+  padding-right: 4%;
+  width: 10%;
+}
+
+#ball{
+  border-radius: 50%;
+}
+
+#salir{
+  border-radius: 50%;
+}
+
+#imgBall{
+ border-radius: 50%;
+ width: 65px;
+ height: 65px;
+}
+
+#imgSalir{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+ }
+
+button#ball.btn.btn-primary{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+}
+
+button#salir.btn.btn-primary{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+}
